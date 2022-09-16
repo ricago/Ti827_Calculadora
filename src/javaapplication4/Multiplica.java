@@ -5,7 +5,9 @@ package javaapplication4;
 class Multiplica {
 
     static void multiplicar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    LeDados m = new LeDados();
+    m.lerValores();
+    System.out.println("Multiplicar: "+
+            (m.valor1 * m.valor2));    }
     
 }

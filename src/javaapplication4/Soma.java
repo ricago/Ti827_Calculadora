@@ -5,7 +5,8 @@ package javaapplication4;
 class Soma {
 
     static void somar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
+    LeDados s = new LeDados();
+    s.lerValores();
+    System.out.println("Somar: "+
+            (s.valor1 + s.valor2));    }    
 }
