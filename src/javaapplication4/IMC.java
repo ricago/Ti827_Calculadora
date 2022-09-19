@@ -3,8 +3,9 @@ package javaapplication4;
 
 
 class IMC {
-
+    
     static void calculaIMC() {
+    System.out.println("Insira o primeiro valor em quilogramas e o segundo valor em metros");    
     float resultado;
     LeDados i = new LeDados();
     i.lerValores();
