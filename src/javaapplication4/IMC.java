@@ -4,11 +4,10 @@ package javaapplication4;
 
 class IMC {
     
-    static void calculaIMC() {
-    System.out.println("Insira o primeiro valor em quilogramas e o segundo valor em metros");    
+    static void calculaIMC() {   
     float resultado;
     LeDados i = new LeDados();
-    i.lerValores();
+    i.lerValores("Insira o peso em Kg", "Insira o valor em metros");
     resultado = (i.valor1  /  (i.valor2 * i.valor2));
     System.out.println("Calculo do IMC: "+ resultado); 
     if (resultado < 18.5)
